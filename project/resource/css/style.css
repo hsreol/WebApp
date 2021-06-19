@@ -1,0 +1,211 @@
+html{
+    font-size: 100%;
+}
+
+header{
+    font-size: 100%;
+    margin-bottom: 5rem;
+}
+
+body{
+    padding-top: 2rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar{
+    display: inline-block;
+    float: none;
+    flex-direction: row;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    background-color: darkslategray;
+    list-style: none;
+    position: fixed;
+    top: 0;
+}
+
+.nav-item{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.nav-item a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-item:hover{
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 50px);
+    width: 1400px;
+}
+
+.wrapper {
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 8rem 0 8rem 0;
+    text-align: center;
+}
+
+.material-icons{
+    vertical-align: bottom;
+}
+
+.material-icons.big{font-size: 8rem;}
+.material-icons.mid{font-size: 4rem}
+.material-icons.sm{font-size: 2rem}
+
+.cardimage{
+    border: 1px solid darkblue;
+    width: 12rem;
+    height: 12rem;
+    alt: "";
+}
+
+.card{
+    height: 30rem;
+    position: static;
+}
+
+.goup{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #000000;
+}
+
+.profile{
+    border-radius: 100%;
+    position:static;
+    width:100%;
+    max-width: 20rem;
+    height:auto;
+    max-height: 20rem;
+    border: 1px solid darkblue;
+    alt: "";   
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+.actions{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_icon{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon_list{
+    margin: 0;
+    padding: 1rem;
+    border: 0;
+    display: inline-block;
+}
+
+.png-icon{
+    padding: 0;
+    margin:0;
+    width: 4rem;
+    height: 4rem;
+    vertical-align: bottom;
+}
+
+.png-icon:hover{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.button_list{
+    margin: 0;
+    padding: 1rem;
+    border: 0;
+    display: inline-block;
+}
+
+.btn{
+    background-color: #39c3fa;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-top: 1rem;
+    transition: background-color 0.5s ease-in-out,
+                color 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #6ab4d1 !important;
+    color: #FFFFFF !important;
+}
+
+a {
+    -moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #43B3E0;
+    text-decoration: none;
+}
+
+form input[type=text].form-control{
+    position: static;
+    background-color: #f0f0f0;
+}
+
+form textarea[type=text].form-control{
+    position: static;
+    background-color: #f0f0f0;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+h5{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+h3{
+    color:#808080;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.cardp{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+.cardpp{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1680px){
+    html{font-size: 100%;}
+}
+
+@media screen and (max-width:1280px){
+    html{font-size: 70%;}
+}
