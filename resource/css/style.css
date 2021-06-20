@@ -89,6 +89,7 @@ body{
     max-width: 20rem;
     height:auto;
     max-height: 20rem;
+    margin-top: 3rem;
     border: 1px solid darkblue;
     alt: "";   
 }
@@ -221,5 +222,5 @@ h4{
 }
 
 @media screen and (max-width:600px){
-    html{font-size: 80%;}
+    html{font-size: 75%;}
 }
